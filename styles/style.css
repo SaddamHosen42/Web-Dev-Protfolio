@@ -13,17 +13,19 @@
         "wdth" 100;
 }
 
-/* color */
+/* common styles */
+.secandary-bg {
+    background-color: rgb(255, 248, 243);
+}
+
 .dark-2 {
     color: rgb(71, 71, 71);
 }
 
-/* common styles */
 .text-primary {
     color: rgb(253, 110, 10);
 }
 
-/* common btn */
 .btn-primary {
     background-color: rgb(253, 110, 10);
     color: white;
@@ -33,6 +35,18 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
 }
 
 /* background img */
@@ -50,7 +64,7 @@ nav {
     margin: 50px 225px;
 }
 
-.nav-taitale {
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
@@ -86,7 +100,7 @@ nav li a {
     font-weight: 600;
 }
 
-.banner-taitale {
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin: 20px 87px 20px 0;
@@ -102,4 +116,34 @@ nav li a {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 30px;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*about section style */
+.about {
+    padding: 130px 156px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+   
+}
+
+.about-items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.about-item .about-title{
+    font-size: 20px;
+}
+.about-item .item-description {
+    font-size: 20px;
+    font-weight: 700;
 }
