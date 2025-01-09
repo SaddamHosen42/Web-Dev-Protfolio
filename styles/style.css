@@ -17,7 +17,8 @@
 .text-center {
     text-align: center;
 }
-.title{
+
+.title {
     margin: 30px 0;
 }
 
@@ -168,4 +169,41 @@ main {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgb(221, 226, 230);
+}
+
+/* resume section style */
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.resume-colum-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+}
+
+.experience-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+    margin-top: 20px;
 }
