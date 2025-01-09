@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 .open-sans-normal {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -11,16 +12,19 @@
     font-variation-settings:
         "wdth" 100;
 }
+
 /* color */
-.dark-2{
-   color:rgb(71, 71, 71);
+.dark-2 {
+    color: rgb(71, 71, 71);
 }
+
 /* common styles */
-.text-primary{
+.text-primary {
     color: rgb(253, 110, 10);
 }
+
 /* common btn */
-.btn-primary{
+.btn-primary {
     background-color: rgb(253, 110, 10);
     color: white;
     font-weight: 700;
@@ -31,26 +35,71 @@
     cursor: pointer;
 }
 
+/* background img */
+.header-bg {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /* nav ber styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px 225px;
 }
-.nav-taitale{
+
+.nav-taitale {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 0 230px;
+}
+
+.banner-content {
+    max-width: 585px;
+    height: 356px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-taitale {
+    font-size: 85px;
+    font-weight: 700;
+    margin: 20px 87px 20px 0;
+}
+
+.banner-profile-pic {
+    width: 585px;
+}
+
+.banner-description {
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
