@@ -210,3 +210,35 @@ main {
     color: rgb(117, 117, 117);
     margin-top: 20px;
 }
+
+/* footer styles */
+footer {
+    display: flex;
+    padding: 130px 230px;
+    margin-top: 113px;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"],footer textarea {
+    display: block;
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(32, 28, 28);
+    border: none;
+    padding: 18px 25px;
+    margin-bottom: 25px;
+}
+.footer-pera{
+    margin-bottom: 30px;
+}
+.footer-img{
+    display: flex;
+    gap: 20px;
+}
